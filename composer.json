@@ -1,0 +1,20 @@
+{
+    "name": "lilianpb/utils",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lilianpb\\Utils\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lilianpb",
+            "email": "pea.lilian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.1.*",
+        "symfony/console": "^6.4"
+    }
+}

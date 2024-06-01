@@ -1,0 +1,13 @@
+#!/usr/bin/env php 
+<?php
+
+use Lilianpb\Utils\Command\TestCommand;
+use Symfony\Component\Console\Application;
+
+require_once dirname(__DIR__)."/vendor/autoload.php";
+
+$testCommmad = new TestCommand();
+
+$app = new Application();
+$app->add($testCommmad);
+$app->run();
