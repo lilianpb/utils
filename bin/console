@@ -4,7 +4,7 @@
 use Lilianpb\Utils\Command\TestCommand;
 use Symfony\Component\Console\Application;
 
-require_once dirname(__DIR__)."/vendor/autoload.php";
+require_once "./vendor/autoload.php";
 
 $testCommmad = new TestCommand();
 
